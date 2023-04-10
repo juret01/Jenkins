@@ -3,6 +3,8 @@ package package1Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 
 public class IgnoreTest {
 

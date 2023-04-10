@@ -1,5 +1,9 @@
 package package1Test;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
@@ -29,7 +33,7 @@ public class tester_LessennerTest {
 	String expectedtitle = "TechCircle Shool";
 	String actual_originalTitle = driver.getTitle();
 	
-	Assert.assertEquals(actual_originalTitle,expectedtitle);
+	AssertJUnit.assertEquals(actual_originalTitle,expectedtitle);
 	
 	
 		}

@@ -1,5 +1,9 @@
 package package1Test;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -8,14 +12,15 @@ public class TestRetryAnalyzer {
 	
 	// @Test(retryAnalyzer = retryAnalyzer.class)
 	 
-	    public void test2() {
-	        Assert.assertEquals(true, false);
+	    @Test
+		public void test2() {
+	        AssertJUnit.assertEquals(true, false);
 	    }
 	    
 	    
 	    @Test
 	    public void test1() {
-	        Assert.assertEquals(false, true);
+	        AssertJUnit.assertEquals(false, true);
 
 	    }
 	

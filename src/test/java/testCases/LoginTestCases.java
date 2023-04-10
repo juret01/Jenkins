@@ -1,5 +1,9 @@
 package testCases;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -38,7 +42,7 @@ public class LoginTestCases extends CommonMethods {
 
 		aMenu.deleteNationality((BaseClass.getProperty("adminPageValue")));
 
-		Assert.assertTrue(ap.recordsTable.size() != 1);
+		AssertJUnit.assertTrue(ap.recordsTable.size() != 1);
 
 	}
 
